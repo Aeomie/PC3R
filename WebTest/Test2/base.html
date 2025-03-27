@@ -1,0 +1,27 @@
+<!-- base.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{block "title" .}}My Go Website{{end}}</title>
+</head>
+<body>
+
+    <!-- Navbar block -->
+    <header>
+        {{block "navbar" .}}<nav>Default Navbar</nav>{{end}}
+    </header>
+
+    <!-- Main content block -->
+    <main>
+        {{block "content" .}}Content goes here{{end}}
+    </main>
+
+    <!-- Footer block -->
+    <footer>
+        {{block "footer" .}}<p>Default Footer</p>{{end}}
+    </footer>
+
+</body>
+</html>

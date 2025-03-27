@@ -5,6 +5,9 @@
 4. To send a post run `curl -X POST http://localhost:5000/players/Pepper` or `curl -X POST http://localhost:5000/players/User`
 5. To run test files you can do `go test`
 
+---
+How to use go mod: `go mod init PC3R_Project/PC3R/Part3` <br>
+`go mod init %pathtofile%`
 
 ---
 Calls:
